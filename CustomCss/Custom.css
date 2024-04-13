@@ -1,0 +1,199 @@
+/*set font inside body */
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* main login area */
+.mainLoginArea {
+  background-image: linear-gradient(#0000009e, #00000038), url(../All-Iamage/13156125_5163403.jpg);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 25%;
+  left: 25%;
+
+}
+
+.submitBtn {
+  background-color: #03c0a2;
+  color: white;
+  font-weight: bold;
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  background-color: #0d7564;
+  color: white;
+  font-weight: bold;
+}
+
+.primaryIcon1 {
+  color: gray;
+  top: 0px;
+  left: 0px;
+  padding: 6px;
+  border-right: 2px solid #bfbcbc;
+}
+
+.primaryIcon2 {
+  color: gray;
+  top: 0px;
+  left: 0px;
+  padding: 6px 8px 6px 6px;
+  border-right: 2px solid #bfbcbc;
+}
+
+.mainFormArea {
+  border: 2px solid #747474;
+  border-radius: 5px;
+  background: #0000008c;
+}
+
+span.primaryIcon3 {
+  padding: 6px;
+  right: 0px;
+  top: 0px;
+  color: gray;
+  margin-right: 8px;
+}
+
+span.primaryIcon3:hover {
+  cursor: pointer;
+  color: #0d7564;
+
+}
+
+/* /* .plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+  position: relative;
+}
+
+.plus::before {
+  content: "";
+  position: absolute;
+  height: calc(100% + 40px);
+  width: calc(100% + 40px);
+  border: 2px solid green;
+  border-radius: 50%;
+  animation: pulseEffect 1.5s linear infinite;
+}
+.plus::after {
+  content: "";
+  position: absolute;
+  height: calc(100% + 40px);
+  width: calc(100% + 40px);
+  border: 4px solid green;
+  border-radius: 50%;
+  animation: pulseEffect 1.5s linear infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes pulseEffect {
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.4);
+    opacity: 0;
+  }
+} */
+/* 
+ .heartBit {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: green;
+  color: white;
+  position: relative;
+  /* animation-name: calling;
+  animation-iteration-count: infinite;
+  animation-duration: .5s; */
+
+/* @keyframes calling{
+  0%{
+    transform: rotate(0deg);
+  }
+  30%{
+    transform: rotate(20deg);
+  }
+  70%{
+    transform: rotate(40deg);
+  }
+  100%{
+    transform: rotate(90deg);
+  }
+
+}
+
+.heartBit::after {
+  content: "";
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: waveCall;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+} */
+/* .heartBit::before {
+  content:"";
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: waveCall;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+}  */
+
+/* @keyframes waveCall {
+  0% {
+    opacity: 1;
+  }
+  100%{
+    border:60px solid green;
+    opacity: 0;
+  }
+
+} */ 
